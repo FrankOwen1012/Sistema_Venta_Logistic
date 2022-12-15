@@ -1,0 +1,12 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "xxx",
+            "apellido": "xxx",
+            "pass": "xx",
+            "telefono": "xx",
+            "direccion": "xxx"
+        }
+    ]
+}

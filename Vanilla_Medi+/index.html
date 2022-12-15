@@ -1,0 +1,38 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Login</title>
+</head>
+<body>
+    
+
+    <form class="form" id="formulario" action="./conexion/ValidaLogin.php">
+    
+        <h2 class="form__title">Inicio de Sesion</h2>
+        <p class="for__paragraph">¿Aun no tienes una Cuenta? <a href="./html/register/register.php" class="form_link">Entra aqui</a></p>
+        <div class="form__container">
+            <div class="form__group">
+                <input type="text" id="user" class="form__input" placeholder=" " name="user" required>
+                <label for="name" class="form__label">Usuario: </label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="password" id="pass" class="form__input" placeholder=" " name="pass" required>
+                <label for="name" class="form__label">Contraseña : </label>
+                <span class="form__line"></span>
+            </div>
+            <input type="submit" id="submit" class="form__submit" value="entrar">
+
+
+        </div>
+    </form>
+ 
+    </script>
+
+</body>
+</html>
